@@ -5,23 +5,33 @@
 <meta charset="utf-8" content="width=device-width, initial-scale=1">
 <link rel="icon" href="favicon.ico" type="image/x-icon">
 <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<link rel="stylesheet" type="text/css" href="assets/css/w3.css">
 </head>
 <body>
-<div id="header" class="fit">
-<img src="assets/img/1.png">
-<h1>BIOS PASSWORD REMOVER</h1>
-</div>   
-<div id="container" class="fit" id="control_id"> <form name="pwgen" id="form_id"><input type="text" name="serial"  id="serial_id" /><br /><br />
-<input type="submit" class="btn" name="serial" id="button_id"  value="UNLOCK"> </form> </div>
+<div class="w3-bar w3-red w3-mobile">
+    <a href="index.html" class="w3-bar-item w3-hover-white w3-white w3-button ">HOME</a>
+    <a href="help.html" class="w3-bar-item w3-hover-white w3-hover-text-black w3-button">HELP</a>
+    <a href="help.html" class="w3-bar-item w3-hover-white w3-hover-text-black w3-button ">CONTACT</a>
+    <a href="about.html" class="w3-bar-item w3-hover-white w3-hover-text-black w3-button ">ABOUT</a>
+</div>
 
-<div id="results" class="fit">
+<div class="w3-container w3-padding">
+<img class="w3-center" src="assets/img/1.png">
+<h2 class="w3-center w3-text-white">BIOS PASSWORD REMOVER</h2>
+</div>
+
+<div  class="w3-center w3-container w3-red w3-padding" id="control_id"> <form name="pwgen" id="form_id"><input class=" w3-border" type="text" name="serial"  id="serial_id" placeholder="Enter code here!"/><br /><br />
+<input type="submit" class="btn w3-button w3-white w3-hover-orange" name="serial" id="button_id"  value="UNLOCK"> </form> </div>
+
+<div id="results" class="w3-container w3-padding">
 
 <h4 style="display: none; " id="try_this"><br />CODES GENERATED !!!</h4><div id="answer"></div>
-    <div id="dell_note" style="text-align: left;  display: none;"> <span class="label notice" style="text-align: left;" id="dell_note">*Some Dell/HP require Right Ctrl+Enter to validate passcode, others use Left Ctrl+Enter*></span>
+    <div id="dell_note" style="text-align: left;  display: none;"> <span class="label notice" style="text-align: left;" id="dell_note">Remember! Some Dell/HP require Right Ctrl+Enter to validate passcode, others use Left Ctrl+Enter. Also best to use trusted external keyboard. @vim-2019</span>
 </div>
 </div>
-<footer class="fit">
-<h2>grafiteksolutions 2019 (0574169269) original code in phyton by dogbert1</h2>
+
+<footer class="w3-container w3-text-white w3-center w3-red">
+<h2>grafiteksolutions 2019</h2>
 </footer>
 <script type="text/javascript" src="assets/js/bundle.053e49206c2c32c3168e.js"></script>	
 </body>
