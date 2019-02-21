@@ -37,6 +37,13 @@ h2{
     width: 50% !important;
     padding: 10px;
 }
+.w3-bar {
+    position: fixed;
+    top: 0;
+}
+.bar{
+    margin-top: 35px;
+}
 /*
 
 .fit{
