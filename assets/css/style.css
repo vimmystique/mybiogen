@@ -8,8 +8,8 @@ body{
     top: 0px;
     width:100%;
     height: 60px;
-    position: sticky;
     position: -webkit-sticky;
+    position: sticky;
     text-align: center;
 }
 h2{
