@@ -8,6 +8,7 @@ body{
     top: 0px;
     width:100%;
     height: 60px;
+    overflow: visible;
     position: -webkit-sticky;
     position: sticky;
     text-align: center;
@@ -53,6 +54,8 @@ h2{
     width: 100%;
     top: 60px;
     height: 43px;
+    overflow: visible;
+    position: -webkit-sticky;
     position: sticky;
 }
 .panel{
