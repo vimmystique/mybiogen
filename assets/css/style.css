@@ -9,6 +9,7 @@ body{
     width:100%;
     height: 60px;
     position: sticky;
+    position: -webkit-sticky;
     text-align: center;
 }
 h2{
